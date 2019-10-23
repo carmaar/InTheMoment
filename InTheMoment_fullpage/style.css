@@ -1,0 +1,122 @@
+body {
+    font-family: 'Playfair Display';
+}
+
+p {
+    padding:5em;
+    text-align:justify;
+    position:inline;
+}
+
+img {
+    margin-left:7%;
+}
+/* SECTIONS */
+
+#index {
+    background-image:url(portrait1.jpg);
+    background-repeat:no-repeat;
+}
+
+/* NAV */
+
+#navbar {
+
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+nav ul {
+    font-size:25px;
+    font-family: 'Playfair Display', sans-serif;
+    list-style-type: none;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+nav a { 
+    text-decoration: none;
+    color: #463c48;
+    padding:10px;
+}
+
+nav li {
+    display:inline;
+
+}
+
+nav a:hover {
+    background-color:#e0e0e0;
+      -webkit-transition: 0.4s;
+}
+
+/* TITLE */
+
+h1 {
+    position:absolute;
+    color: #393E41;    
+    font-family: Playfair Display;
+    text-transform:uppercase;
+    font-style: italic;s
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center;
+    left: 55%;
+    top: 40%;
+}
+
+h2 {
+    position:absolute;
+    color: #393E41;    
+    font-family: Playfair Display;
+    text-transform:uppercase;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 80px;
+    text-align: center;
+    left: 57%;
+    top: 46%;
+    
+}
+
+h3 {
+    color: #393E41;
+    position: absolute;
+    font-family: Playfair Display;
+    text-transform:uppercase;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height:2px;
+    left: 63%;
+    top:56%;
+    background-color:#F0E4DB;
+    padding:2%;
+}
+
+h4 {
+    position:absolute;
+    color: #393E41;    
+    font-family: 'Playfair Display';
+    text-transform:uppercase;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 80px;
+    text-align: left;
+    top:23%;
+    left:6.5%;
+
+}

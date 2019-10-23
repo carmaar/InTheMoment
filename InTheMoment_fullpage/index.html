@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>In The Moment Photography | Lacy Brown</title>
+    <meta charset="utf-8">
+    
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="fullpage.css">
+        <link rel="stylesheet" href="style.css">
+    
+        <script type="text/javascript" src="fullpage.js"></script>
+
+    </head>
+
+<body>
+
+
+<div id="fullpage">
+    
+    <!-- 1 INDEX -->
+    
+	<div id="index" class="section" data anchor="slide1">
+            <main>
+                <h1>In The Moment</h1>
+                <h2>Photography</h2>
+                <h3>By Lacy Brown</h3>
+
+            </main>
+    
+
+    </div>
+    
+    <!-- 2 NAV -->
+    
+	<div id="navbar" class="section" data anchor="slide2">
+        <nav>
+                <ul>
+                    <li><a href="#slide5" title="Weddings/Engagments">weddings/engagments</a></li>
+                    <li><a href="#slide6" title="Portraits">portraits</a></li>
+                    <li><a href="#slide7" title="Lifestyle">lifestyle</a></li>
+                    <li><a href="#slide3" title="about">meet me!</a></li>
+                    <li><a href="#" title="Contact">contact</a></li>
+                </ul>
+        </nav>
+    </div>
+    
+    <!-- 3 ABOUT -->
+    
+    
+    <div id="about" class="section" data-anchor="slide3">
+        
+        <h4>about</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis sagittis ante. In at facilisis sem. Donec sed purus tellus. Pellentesque mattis sem non dui egestas ultrices. Sed convallis lacinia egestas. Suspendisse tristique aliquam sem, at euismod metus efficitur sed. Nam ac efficitur velit. Ut consectetur elementum massa, non fermentum purus condimentum non. Donec volutpat mauris at sem convallis, nec lobortis orci cursus. Duis mattis mauris ac ante accumsan, id auctor quam elementum. Curabitur nec finibus ipsum, at ullamcorper arcu. Donec commodo tortor eget tincidunt porta. Proin cursus mauris sed ornare aliquam. Quis auctor elit sed vulputate. Ornare arcu odio ut sem nulla pharetra diam sit. Est lorem ipsum dolor sit amet consectetur adipiscing elit. Neque aliquam vestibulum morbi blandit cursus risus at ultrices. Feugiat vivamus at augue eget arcu dictum varius duis. Enim sit amet venenatis urna cursus eget nunc. Amet cursus sit amet dictum sit. Nisi est sit amet facilisis. Scelerisque varius morbi enim nunc faucibus a pellentesque. Pharetra sit amet aliquam id diam maecenas ultricies mi. Vulputate odio ut enim blandit. Fermentum posuere urna nec tincidunt praesent semper. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Odio euismod lacinia at quis risus sed. Vitae tortor condimentum lacinia quis vel eros. Quis enim lobortis scelerisque fermentum. Iaculis eu non diam phasellus vestibulum lorem sed risus.
+
+</p>
+        
+    
+    </div>
+    
+    
+    <!-- 4 CONTACT -->
+    
+	<div id="contact" class="section" data-anchor="slide4">
+        
+                <h4>CONTACT</h4>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis sagittis ante. In at facilisis sem. Donec sed purus tellus. Pellentesque mattis sem non dui egestas ultrices. Sed convallis lacinia egestas. Suspendisse tristique aliquam sem, at euismod metus efficitur sed. Nam ac efficitur velit. Ut consectetur elementum massa, non fermentum purus condimentum non. Donec volutpat mauris at sem convallis, nec lobortis orci cursus. Duis mattis mauris ac ante accumsan, id auctor quam elementum. Curabitur nec finibus ipsum, at ullamcorper arcu. Donec commodo tortor eget tincidunt porta. Proin cursus mauris sed ornare aliquam. Quis auctor elit sed vulputate. Ornare arcu odio ut sem nulla pharetra diam sit. Est lorem ipsum dolor sit amet consectetur adipiscing elit. Neque aliquam vestibulum morbi blandit cursus risus at ultrices. Feugiat vivamus at augue eget arcu dictum varius duis. Enim sit amet venenatis urna cursus eget nunc. Amet cursus sit amet dictum sit. Nisi est sit amet facilisis. Scelerisque varius morbi enim nunc faucibus a pellentesque. Pharetra sit amet aliquam id diam maecenas ultricies mi. Vulputate odio ut enim blandit. Fermentum posuere urna nec tincidunt praesent semper. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Odio euismod lacinia at quis risus sed. Vitae tortor condimentum lacinia quis vel eros. Quis enim lobortis scelerisque fermentum. Iaculis eu non diam phasellus vestibulum lorem sed risus.</p>
+            
+        
+        </div>
+    
+    <!-- 5 WEDDINGS/ENGAGMENTS -->
+    
+    <div id="wed" class="section" data-anchor="slide5">
+        <img src="wedding1.jpg" height="800px">
+        <img src="wedding2.jpg" height="800px">
+    
+    </div>
+    
+    <!-- 6 PORTRAITS -->
+    
+    <div id="port" class="section" data-anchor="slide6">
+        <img src="portrait2.jpg" height="400px">
+        <img src="portrait4.jpg" height="600px">
+    
+    </div>
+    
+    <!-- 7 LIFESTYLE -->
+    
+     <div id="life" class="section" data-anchor="slide7">
+        <img src="lifestyle2.jpg" height="600px">
+        <img src="lifestyle1.jpg" height="500px">
+       
+    
+    </div>
+    
+<!-- END FULLPAGE DIV --> </div>
+    
+    <!-- CALL FULLPAGE SCRIPT -->
+    
+        <script>
+            new fullpage('#fullpage', {
+            //options here
+            autoScrolling:true,
+            scrollHorizontally: true,
+            anchors:['slide1', 'slide2', 'slide3']
+
+
+        });
+
+        //methods
+        fullpage_api.setAllowScrolling(true);
+        </script>
+
+    <!-- END FULLPAGE CALL -->
+    
+    <!-- STICKY NAV -->
+    
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("navbar");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+</script>
+    <!-- END STICKY NAV -->
+    
+</body>
+    
+</html>
