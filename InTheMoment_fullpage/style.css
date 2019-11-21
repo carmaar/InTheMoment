@@ -11,11 +11,12 @@ p {
 /* SECTIONS */
 
 #index {
-    background-image:url(/hands.jpg);
+    background-image:url(imgs/hands.jpg);
     background-size: c;
     background-repeat: no-repeat;
-    background-blend-mode:overlay;
-    background-color: #94868f86;
+    background-blend-mode:soft-light;
+    background-color: rgba(156, 138, 138, 0.363);
+
 }
 
 #container {
@@ -23,15 +24,18 @@ p {
     display:flex;
     flex-direction: row;
     justify-content:space-evenly;
+    width:85%;
+    margin: 0 8em;
 }
 
 h1 {
+    font-size:4em;
     font-weight: bolder;
-    margin:.5em;
 }
 
 h2 {
     font-style: italic;
+    line-height:3em;
  }
 
  hr {
@@ -70,7 +74,6 @@ nav a:hover {
 
  .arrow { 
     font-weight:100;
-    justify-content: flex-end;
     background-color:transparent;
     border-color:transparent;
  }
@@ -128,6 +131,7 @@ nav a:hover {
 
  .close {
     display:Flex;
+    justify-content: flex-end;
  }
 
 
