@@ -38,7 +38,7 @@ h2 {
     line-height:3em;
  }
 
- hr {
+hr {
     width:75%;
  }
 
@@ -90,9 +90,8 @@ nav a:hover {
  }
 
  .lc {
-     border-radius: 1em;
-     padding:.5em;
-     height:50vh;
+     margin:0 25%;
+     width:50%;
  }
 
  .bio {
