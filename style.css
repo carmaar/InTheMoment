@@ -179,6 +179,24 @@ hr {
             flex-direction: column;
             }
 
+        h1 {
+            font-size:7em;
+            padding:0;
+        }
+
+        h2 {
+            font-size:4em;
+        }
+
+        .modal-dialog {
+            width:100%;
+            margin-top:50%;
+        }
+
+        .modal-content {
+            width:auto;
+        }
+
     }
   
     /* MOBILE */
@@ -193,6 +211,8 @@ hr {
         #container {
             flex-direction: column;
             }
+
+   
   
     }
   
