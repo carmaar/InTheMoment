@@ -171,6 +171,7 @@ hr {
     @media only screen and (max-width: 64em) {
 
         #index {
+            background-position: 25%;
             justify-content: center;
             text-align: center;
             }
