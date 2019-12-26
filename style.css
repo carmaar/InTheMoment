@@ -12,11 +12,9 @@ p {
 
 #index {
     background-image:url(imgs/hands.jpg);
-    background-size: c;
-    background-repeat: no-repeat;
+    background-size:cover;
     background-blend-mode:soft-light;
     background-color: rgba(156, 138, 138, 0.363);
-
 }
 
 #container {
@@ -44,30 +42,26 @@ hr {
 
 /* NAV */
 
-nav ul {
+.nav {
+    display:flex;
+    justify-content: center;
     font-size:25px;
     font-family: 'Playfair Display', sans-serif;
     list-style-type: none;
-    text-align:center;
     text-transform: uppercase;
     font-weight:bold;
 }
 
-nav a { 
+.nav a { 
     text-decoration: none;
-    color: #463c48;
+    color: rgb(51, 42, 42);
     padding:10px;
+    transition: .4s ease;
 }
 
-nav li {
+.nav li {
     display:inline;
 }
-
-nav a:hover {
-    background-color:#e0e0e0;
-      -webkit-transition: 0.4s;
-}
-
 /* ABOUT */
 
  /* MODAL BUTTON */
@@ -128,11 +122,6 @@ nav a:hover {
      color:rgb(160, 155, 158);
  }
 
- .close {
-    display:Flex;
-    justify-content: flex-end;
- }
-
 
 .button:active, 
  button:active,
@@ -149,7 +138,7 @@ nav a:hover {
     text-align: center;
     background-color:rgb(97, 81, 81);
     width:100%;
-    padding:2em;
+    padding:1em;
     margin:0;
 }
 
@@ -160,7 +149,6 @@ nav a:hover {
     flex-wrap: wrap;
   }
   
-  /* Create four equal columns that sits next to each other */
 .column {
     flex:50%;
     justify-content: center;
@@ -174,18 +162,38 @@ nav a:hover {
 
   }
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
+
+
+/* MEDIA QUERIES */
+
+    /* TABLET */
+
+    @media only screen and (max-width: 64em) {
+
+        #index {
+            justify-content: center;
+            text-align: center;
+            }
+
+        #container {
+            flex-direction: column;
+            }
+
     }
-  }
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
+    /* MOBILE */
+  
+    @media only screen and (max-width:37.5em) {
+
+        #index {
+            justify-content: center;
+            text-align: center;
+            }
+
+        #container {
+            flex-direction: column;
+            }
+  
     }
-  }
+  
+  
