@@ -198,6 +198,31 @@ hr {
             width:auto;
         }
 
+        #title {
+            font-size:5em;
+        }
+
+                /* IMAGE GRID */
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .column {
+            flex:50%;
+            justify-content: center;
+            max-width: 100%;
+        }
+        
+        .column img {
+            vertical-align: middle;
+            width: 100%;
+            padding:2em;
+
+        }
+  
+
     }
   
     /* MOBILE */
